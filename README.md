@@ -6,6 +6,7 @@ The dataset must be a classification type of data set with quantifiable variable
 
 For this, I trained the algorithm on only two columns of data so the classifier can be displayed. An example diagram of this is shown here.
 ![Class_Diagram](https://github.com/TheFosh/MachineLearning_Homework/blob/main/Images/Homework4_Display.png)
+
 As well, this produces the following confusion matrix.
 ![Class_CM](https://github.com/TheFosh/MachineLearning_Homework/blob/main/Images/Homework4_CM.png)
 
