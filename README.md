@@ -1,7 +1,24 @@
 # Homework for Machine Leanring Course
 ## Homework 4
+For this homework, we are to make a support vector classifier with a kernel of a radial basis function. 
+
+The dataset must be a classification type of data set with quantifiable variables. I found this dataset on [heart disease](https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction) to be good for this task.
+
+For this, I trained the algorithm on only two columns of data so the classifier can be displayed. An example diagram of this is shown here.
+![Class_Diagram](https://github.com/TheFosh/MachineLearning_Homework/blob/main/Images/Homework4_Display.png)
+As well, this produces the following confusion matrix.
+![Class_CM](https://github.com/TheFosh/MachineLearning_Homework/blob/main/Images/Homework4_CM.png)
 
 ## Homework 5
+For this homework, we were to create a decison tree and find an optimal max depth. As well, try to see the results of a random forest trained on a data set of 1000 - 10000 observations.
+
+### Desicion Tree
+For the decision tree, I found this dataset on [car brands](https://www.kaggle.com/datasets/asinow/car-price-dataset). Here is an example of confusion matrix produced after performing a grid search to find a good max depth.
+![DecTree_Ex](https://github.com/TheFosh/MachineLearning_Homework/blob/main/Images/Homework5_Display.png).
+
+### Forrest
+In order to train the random forrest, I found this dataset on [student grade proformance](https://www.kaggle.com/datasets/adilshamim8/student-performance-and-learning-style). Using this and a grid seach for the optimal parameters, an exmaple run of the algorithm produced the following confusion matrix.
+![RanFor_CM](https://github.com/TheFosh/MachineLearning_Homework/blob/main/Images/Homework5_CM.png)
 
 ## Homework 6
 For this homework, we were to create a random forest and bagging support vector classifier.
